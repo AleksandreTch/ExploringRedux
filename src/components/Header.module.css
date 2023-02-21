@@ -6,7 +6,11 @@
   align-items: center;
   background-color: black;
   color: white;
-  padding: 0 10%;
+}
+
+.title{
+  margin-left: 2rem;
+  cursor: pointer;
 }
 
 .header ul {
@@ -49,4 +53,78 @@
   background-color: black;
   border-color: #cccc;
   color: white;
+}
+
+.mobileMenu{
+  display: none;
+  color: white;
+  margin: auto;
+  transform: scale(1.75);
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+}
+
+.disablec{
+  display: none;
+}
+
+.mobileMenuIcon{
+  margin-top: 25%;
+  margin-left: 20%;
+  position: absolute;
+}
+.navBar{
+  display: flex;
+}
+
+
+.lgMenu li{
+ display: flex;
+}
+
+.mobMenu{
+  width: 100%;
+  height: 200vh;
+  background-color: black;
+  margin-left: auto;
+  z-index: 1;
+}
+
+.mobileMenu a{
+  z-index: 2;
+  color: white;
+}
+
+.mobMenu h1 {
+  color: white;
+}
+
+/* @media screen and (max-width: 700px) {
+  .mobileMenu{
+    display: flex;
+  }
+
+  .lgMenu li{
+    display: none;
+  }
+} */
+
+@media screen and (max-width: 700px) {
+  .title{
+    font-size: 1rem;
+  }
+  
+  .mobileMenu{
+    display: flex;
+    transform: scale(1.25);
+    transform: translateX(0.5rem);
+  }
+
+  .lgMenu li{
+    display: none;
+  }
 }
