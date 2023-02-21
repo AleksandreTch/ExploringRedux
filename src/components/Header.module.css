@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3c0080;
+  background-color: black;
   color: white;
   padding: 0 10%;
 }
@@ -29,20 +29,24 @@
 
 .header a:hover,
 .header a:active {
-  color: #b864da;
+  color: #cccc;
 }
 
 .header button {
   font-size: 1.25rem;
-  background-color: #ffbb00;
-  border: 1px solid #ffbb00;
+  background-color: white;
+  border: 1px solid white;
   padding: 0.5rem 1.5rem;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   color: #2c2922;
+  transition: all 0.25s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .header button:hover,
 .header button:active {
-  background-color: #ffa600;
-  border-color: #ffa600;
+  background-color: black;
+  border-color: #cccc;
+  color: white;
 }
