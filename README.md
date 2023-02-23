@@ -4,4 +4,4 @@ I build this little mock application using React and Redux as I explore and lear
 
 you can view the application by visiting the link below: 
 
-https://63f423cb0307f96bd1ed2135--funny-platypus-36a983.netlify.app
+https://funny-platypus-36a983.netlify.app
