@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 
 import classes from "./Header.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { authActions } from "../store/index";
+import { authActions } from "../store/auth";
 
 //
 
